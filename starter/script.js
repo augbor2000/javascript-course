@@ -95,4 +95,61 @@ console.log(ageSarah >= 18);
 
 const isFullAge = ageSarah >= 18;
 
+
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+
+console.log(now - 1991 > now - 2018);
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
+const averageAge = (ageJonas + ageSarah) / 2;
+console.log(ageJonas, ageSarah, averageAge);
+
+//FIRST CHALLENGE
+//----------------
+
+const massMark = 78.0;
+const heightMark = 1.69;
+
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJoh = massJohn / (heightJohn * heightJohn);
+
+const markHigherBMI = BMIMark > BMIJoh;
+
+console.log(BMIMark, BMIJoh, markHigherBMI);
+
+const firstName = "Jonas";
+const job = "teacher";
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`
+console.log(jonasNew);
+
+console.log(`Just a regular string ....`);
+
+console.log('String with \nmultiple \nlines');
+
+console.log(`String with 
+multiple
+lines`);
 */
+
+const age = 15;
+
+if (age >= 18) {
+    console.log('Sarah can start driving licence 🚗');
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
